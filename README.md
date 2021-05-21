@@ -13,4 +13,4 @@ The dynamic webpage consists of the demographic information of the volunteers, a
 
 ## Summary:
 
-To view the full webpage of the dashboard please visit the link: https://zkirsan.github.io/BellyButton_Dashboard/
+To view the full webpage of the dashboard please visit the link: [Please click here to access the webpage](https://zkirsan.github.io/BellyButton_Dashboard/)
