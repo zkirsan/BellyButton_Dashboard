@@ -9,19 +9,20 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
   
   <link rel="stylesheet" href="static/css/style.css">
+  <link rel="stylesheet" href="static/css/stylenew.css">
 </head>
 
 <body>
 
   <div class="container">
     <div class="row">
-      <div class="col-md-10 jumbotron text-center">
+      <div class="col-sm-12 col-md-10 jumbotron text-center">
         <h1>Belly Button Biodiversity Dashboard</h1>
         <p>Use the interactive charts below to explore the dataset</p>
       </div>
     </div>
     <div class="row">
-      <div class="col-md-2">
+      <div class="col-sm-12 col-md-2">
         <div class="well">
           <h5>Test Subject ID No.:</h5>
           <!-- <select id="selDataset"></select> -->
@@ -34,16 +35,19 @@
           <div id="sample-metadata" class="panel-body"></div>
         </div>
       </div>
-      <div class="col-md-5">
+      <div class="col-sm-12 col-md-5">
         <div id="bar"></div>
+        <h2>The horizontal bar chart displays the sample_values as the values, the otu_ids as the labels, and the otu_labels as the hover text for the bars on the chart.</h2>
       </div>
-      <div class="col-md-4">
+      <div class="col-sm-12 col-md-4">
         <div id="gauge"></div>
+        <h2>The gauge chart displays the weekly washing frequency's value, and display the value as a measure from 0-10 on the progress bar in the gauge chart when an individual ID is selected from the dropdown menu.</h2>
       </div>
     </div>
     <div class="row">
-      <div class="col-md-12">
+      <div class="col-sm-12 col-md-12">
         <div id="bubble"></div>
+        <h2>The Bubble chart displays the Otu_ids as the x-axis values, the sample_values as the y-axis values, the sample_values as the marker size, the otu_ids as the marker colors, and finally, the otu_labels as the hover-text values.</h2>
       </div>
     </div>
   </div>
